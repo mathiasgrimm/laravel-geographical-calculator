@@ -23,7 +23,7 @@ class DistanceTest extends OrchestraTestCase
             ->getDistance();
 
         $this->assertEquals([
-            '1-2' => ['km' => 1258.1691302282],
+            '1-2' => ['km' => 1258.1691302281708],
         ], $result);
     }
 
